@@ -1,0 +1,114 @@
+body {
+    background: #fef3e2;
+    font-family: Arial, sans-serif;
+}
+
+.auth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.auth-container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: left;
+}
+
+.auth-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #d32f2f;
+    text-align: center;
+}
+
+.auth-form label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.auth-form input,
+.auth-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.gender-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.gender-options label {
+    font-size: 14px;
+}
+
+.gender-options input {
+    margin-right: 5px;
+}
+
+/* Updated Button Style for Auth Pages */
+.btn-auth {
+    width: 100%;
+    padding: 12px;
+    background: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-auth:hover {
+    background: #c12727;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .auth-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .gender-options {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .gender-options label {
+        margin-bottom: 5px;
+    }
+}
+
+.btn-auth-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #d32f2f;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-auth-link:hover {
+    background: #c12727;
+    transform: scale(1.05);
+}
+
